@@ -32,5 +32,5 @@ This was tested on a Qualcomm Adreno 740 running in a OnePlus 11 5G. Here is the
 
 ## Building
 
-Ensure you have the Android `ndk` installed. Then run `make android`, which will build a `armeabi-v7a` ABU (this can be changed in `Application.mk` if necessary. Push the resulting binary (`build/android/libs/armeabi-v7a/runner`) to the device using `adb`. Most devices let files be moved into `/data/local/tmp`. Make sure to transfer `qualcomm-shader.spv` as well. On the device, run `./runner` and use `adb logcat` to see the error.
+Ensure you have the Android `ndk` installed. Then run `make android`, which will build a `armeabi-v7a` ABI (this can be changed in `Application.mk` if necessary. Push the resulting binary (`build/android/libs/armeabi-v7a/runner`) to the device using `adb`. Most devices let files be moved into `/data/local/tmp`. Make sure to transfer `qualcomm-shader.spv` as well. On the device, run `./runner` and use `adb logcat` to see the error.
 
